@@ -12,47 +12,6 @@
     minimatch "^3.0.4"
     react "^16.6.1"
 
-"@armada-inc/gatsby-theme-ghost-attila@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@armada-inc/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.8.tgz#05beecfcd9490774bd44092404dd6f10618963d0"
-  integrity sha512-BRrHyfcP5SAoUZK2aGdXM55JAej/coNx2CikXFoOrvgiBxnE3Y4RH//X9U7sjsHeVQEgBczikhCPlNRWl9hKvg==
-  dependencies:
-    "@armada-inc/gatsby-plugin-amp" "^0.2.3"
-    "@tryghost/helpers" "^1.1.22"
-    "@tryghost/url-utils" "^0.6.13"
-    autoprefixer "^9.7.4"
-    babel-plugin-prismjs "^2.0.1"
-    babel-plugin-styled-components "^1.10.7"
-    babel-preset-gatsby "^0.2.29"
-    cheerio "^1.0.0-rc.3"
-    cssnano "^4.1.10"
-    disqus-react "^1.0.8"
-    gatsby-awesome-pagination "^0.3.5"
-    gatsby-background-image "^0.10.2"
-    gatsby-image "^2.2.41"
-    gatsby-plugin-advanced-sitemap "^1.5.1"
-    gatsby-plugin-catch-links "^2.1.26"
-    gatsby-plugin-feed "^2.3.27"
-    gatsby-plugin-force-trailing-slashes "^1.0.4"
-    gatsby-plugin-manifest "^2.2.42"
-    gatsby-plugin-offline "^3.0.35"
-    gatsby-plugin-page-creator "^2.1.40"
-    gatsby-plugin-postcss "^2.1.20"
-    gatsby-plugin-react-helmet "^3.1.22"
-    gatsby-plugin-sass "^2.1.29"
-    gatsby-plugin-sharp "^2.4.5"
-    gatsby-rehype-ghost-links "^1.1.0"
-    gatsby-rehype-prismjs "^0.0.9"
-    gatsby-source-filesystem "^2.1.48"
-    gatsby-source-ghost "^4.0.3"
-    gatsby-transformer-rehype "^1.1.0"
-    gatsby-transformer-sharp "^2.3.14"
-    lodash "^4.17.15"
-    node-sass "^4.13.1"
-    prismjs "^1.19.0"
-    react-helmet "^5.2.1"
-    styled-components "^5.0.1"
-
 "@babel/code-frame@7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -1110,6 +1069,48 @@
     "@babel/helper-validator-identifier" "^7.9.5"
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
+
+"@draftbox-co/gatsby-theme-ghost-attila@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.10.tgz#ee46634fc7f2d284becda4e8704d83920abf4135"
+  integrity sha512-RYwCop5rEC25ql4aCVdLNoxxm0u8yB1H+ExEcyzabPAOaYBubApklK09Zob8uI3ydPAa2v5fNnb6Epoh7xtQyA==
+  dependencies:
+    "@armada-inc/gatsby-plugin-amp" "^0.2.3"
+    "@tryghost/helpers" "^1.1.22"
+    "@tryghost/url-utils" "^0.6.13"
+    autoprefixer "^9.7.4"
+    babel-plugin-prismjs "^2.0.1"
+    babel-plugin-styled-components "^1.10.7"
+    babel-preset-gatsby "^0.2.29"
+    cheerio "^1.0.0-rc.3"
+    cssnano "^4.1.10"
+    disqus-react "^1.0.8"
+    gatsby-awesome-pagination "^0.3.5"
+    gatsby-background-image "^0.10.2"
+    gatsby-image "^2.2.41"
+    gatsby-plugin-advanced-sitemap "^1.5.1"
+    gatsby-plugin-catch-links "^2.1.26"
+    gatsby-plugin-feed "^2.3.27"
+    gatsby-plugin-force-trailing-slashes "^1.0.4"
+    gatsby-plugin-manifest "^2.2.42"
+    gatsby-plugin-offline "^3.0.35"
+    gatsby-plugin-page-creator "^2.1.40"
+    gatsby-plugin-postcss "^2.1.20"
+    gatsby-plugin-react-helmet "^3.1.22"
+    gatsby-plugin-sass "^2.1.29"
+    gatsby-plugin-sharp "^2.4.5"
+    gatsby-rehype-ghost-links "^1.1.0"
+    gatsby-rehype-prismjs "^0.0.9"
+    gatsby-source-filesystem "^2.1.48"
+    gatsby-source-ghost "^4.0.3"
+    gatsby-transformer-rehype "^1.1.0"
+    gatsby-transformer-sharp "^2.3.14"
+    lodash "^4.17.15"
+    node-sass "^4.13.1"
+    prismjs "^1.19.0"
+    react-helmet "^5.2.1"
+    reading-time "^1.2.0"
+    styled-components "^5.0.1"
 
 "@ember-data/rfc395-data@^0.0.4":
   version "0.0.4"
@@ -12096,6 +12097,11 @@ readdirp@~3.4.0:
   integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
   dependencies:
     picomatch "^2.2.1"
+
+reading-time@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/reading-time/-/reading-time-1.2.0.tgz#ced71c06715762f805506328dcc1fd45d8249ac4"
+  integrity sha512-5b4XmKK4MEss63y0Lw0vn0Zn6G5kiHP88mUnD8UeEsyORj3sh1ghTH0/u6m1Ax9G2F4wUZrknlp6WlIsCvoXVA==
 
 recursive-readdir@2.2.1:
   version "2.2.1"

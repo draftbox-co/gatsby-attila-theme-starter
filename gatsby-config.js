@@ -35,7 +35,7 @@ try {
 
 let gatsbyPlugins = [
   {
-    resolve: `@armada-inc/gatsby-theme-ghost-attila`,
+    resolve: `@draftbox-co/gatsby-theme-ghost-attila`,
     options: {
       ghostConfig: ghostConfig,
       siteConfig: siteConfig

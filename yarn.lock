@@ -1054,10 +1054,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@draftbox-co/gatsby-theme-ghost-attila@^1.0.25":
-  version "1.0.25"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.25.tgz#39af045f6c3ad4ba55ae790917fa54a4c8e9869c"
-  integrity sha512-PC86rTsvX/jpSItcMDUmwr8ZSGZUfqc+qxM4nvjIA7iiNGcBBv4l50VfImqtT49I/VRbmdGWd1x7sSsae/UNMw==
+"@draftbox-co/gatsby-theme-ghost-attila@^1.0.26":
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.26.tgz#b44405a9112c62b61b01a74801e1b2c115b16199"
+  integrity sha512-nWilbCk5BnMs7US/5g8o0qFiRI9vX0IjiOP6vLtEtgozDaVvH/CcOruk+r0d9tgkL2mAX4ZtjLRTFkvyTSAnNg==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@tryghost/helpers" "^1.1.22"

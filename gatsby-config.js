@@ -1,10 +1,3 @@
-// loading env
-const activeEnv = process.env.NODE_ENV || 'development'
-console.log(`Using environment config: '${activeEnv}'`)
-require("dotenv").config({
-  path: `.env.${activeEnv}`,
-})
-
 let siteConfig;
 let ghostConfig;
 
@@ -92,7 +85,7 @@ if (process.env.GATSBY_HOTJAR_ID) {
     resolve: `gatsby-plugin-hotjar`,
     options: {
       id: process.env.GATSBY_HOTJAR_ID,
-      sv: process.env.GATSBY_HOTJAR_SV
+      sv: 6
     }
   });
 }

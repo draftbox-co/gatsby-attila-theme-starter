@@ -1089,10 +1089,10 @@
   dependencies:
     "@babel/runtime" "^7.10.5"
 
-"@draftbox-co/gatsby-theme-ghost-attila@^1.0.43":
-  version "1.0.43"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.43.tgz#f4cbb2c5fe1fa6193116b6b9f727c07c5ef79ec0"
-  integrity sha512-qBgZ9fgNShFeUoEshxdLQqqkHYBBxlEf8ll8XgQ/FLX2dDUjqV99+MBFIS095K9iRZeG6X+ia412mZGjlsU6PQ==
+"@draftbox-co/gatsby-theme-ghost-attila@^1.0.44":
+  version "1.0.44"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.44.tgz#51e7f32f2a8682da5d6a2faf4a3bf643da888128"
+  integrity sha512-VDBaxU/Z7yA+k8Ne0vtJXMXQrammK1Hxoa6xzaPil38/7RRNrwNXY22lVVoEeYMiYidhhKduv2LJrOjfbpu/cg==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@tryghost/helpers" "^1.1.22"

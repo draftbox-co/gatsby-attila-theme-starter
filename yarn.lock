@@ -1089,10 +1089,10 @@
   dependencies:
     "@babel/runtime" "^7.10.5"
 
-"@draftbox-co/gatsby-theme-ghost-attila@^1.0.44":
-  version "1.0.44"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.44.tgz#51e7f32f2a8682da5d6a2faf4a3bf643da888128"
-  integrity sha512-VDBaxU/Z7yA+k8Ne0vtJXMXQrammK1Hxoa6xzaPil38/7RRNrwNXY22lVVoEeYMiYidhhKduv2LJrOjfbpu/cg==
+"@draftbox-co/gatsby-theme-ghost-attila@^1.0.46":
+  version "1.0.46"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.46.tgz#8f3b1537677d8bde8e1f6a032379341288ca5fcb"
+  integrity sha512-mkyGuDB14VzCKsPQo4FVy7RTUlGTCCWpBG007wyTC9LyES3w7evBNtSlXmmALgukJktsnVLxNjurdjVwFoPTiA==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@tryghost/helpers" "^1.1.22"
@@ -1116,7 +1116,6 @@
     gatsby-plugin-postcss "^2.1.20"
     gatsby-plugin-react-helmet "^3.1.22"
     gatsby-plugin-remove-generator "^1.0.5"
-    gatsby-plugin-remove-serviceworker "^1.0.0"
     gatsby-plugin-sass "^2.1.29"
     gatsby-plugin-sharp "^2.4.5"
     gatsby-rehype-ghost-links "^1.1.0"
@@ -1125,7 +1124,7 @@
     gatsby-source-ghost "^4.0.3"
     gatsby-transformer-rehype "^1.1.0"
     gatsby-transformer-sharp "^2.3.14"
-    lodash "^4.17.15"
+    lodash "^4.17.19"
     node-sass "^4.13.1"
     prismjs "^1.19.0"
     react-helmet "^5.2.1"
@@ -6513,11 +6512,6 @@ gatsby-plugin-remove-generator@^1.0.5:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-generator/-/gatsby-plugin-remove-generator-1.0.5.tgz#ca1da320b7a860fb6e7a1974e9b433acc45bdc39"
   integrity sha512-9Iq8JBHcc9BOp/uDCF0ctI9ntr6LjGUTgHkmwEiYiuHG6DQxutwCFQ9OVT9bomYKF/nDFQW0MfbC4eP9il4YCA==
 
-gatsby-plugin-remove-serviceworker@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
-  integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
-
 gatsby-plugin-sass@^2.1.29:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.2.1.tgz#574d2ff4763e5a78648d69022b7b570da9f903cb"
@@ -9270,6 +9264,11 @@ lodash@4.17.15, lodash@^4.0.0, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.16.4, l
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-update@^3.0.0:
   version "3.4.0"

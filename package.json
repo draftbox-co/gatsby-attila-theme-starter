@@ -24,7 +24,7 @@
     "@draftbox-co/gatsby-plugin-hotjar-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-olark-lazy": "^0.0.1",
     "@draftbox-co/gatsby-plugin-tawk-lazy": "^0.0.1",
-    "@draftbox-co/gatsby-theme-ghost-attila": "https://github.com/draftbox-co/gatsby-attila-theme-ghost/archive/draftbox-co-gatsby-theme-ghost-attila-v1.0.46-alpha-1-gitpkg.tar.gz",
+    "@draftbox-co/gatsby-theme-ghost-attila": "https://github.com/draftbox-co/gatsby-attila-theme-ghost/archive/draftbox-co-gatsby-theme-ghost-attila-v1.0.46-alpha-2-gitpkg.tar.gz",
     "dotenv": "^8.2.0",
     "gatsby": "2.20.24",
     "gatsby-plugin-disqus": "^1.2.0",

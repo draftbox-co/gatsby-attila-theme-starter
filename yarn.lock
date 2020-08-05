@@ -1108,9 +1108,10 @@
     postcss "^7.0.17"
     postcss-js "^2.0.1"
 
-"@draftbox-co/gatsby-theme-ghost-attila@https://github.com/draftbox-co/gatsby-attila-theme-ghost/archive/draftbox-co-gatsby-theme-ghost-attila-v1.0.46-alpha-6-gitpkg.tar.gz":
-  version "1.0.46-alpha-6"
-  resolved "https://github.com/draftbox-co/gatsby-attila-theme-ghost/archive/draftbox-co-gatsby-theme-ghost-attila-v1.0.46-alpha-6-gitpkg.tar.gz#aca563b1d9043a6ea2fbaa020796dde036781623"
+"@draftbox-co/gatsby-theme-ghost-attila@^1.0.47":
+  version "1.0.47"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-theme-ghost-attila/-/gatsby-theme-ghost-attila-1.0.47.tgz#4da32132c55f198273ef2cdf80b3bb405ae28749"
+  integrity sha512-VobrMi1vwIQ3DNW8r+thS4YXWHUTIHNYmXVGoimRHoHzNluE3zgbWrqjGOUhJo+hNWGDdkyke2DyOkVDnotkqQ==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@draftbox-co/gatsby-plugin-css-variables" "0.0.3"

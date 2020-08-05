@@ -15,6 +15,7 @@ module.exports = {
   themeColor: `#15171A`, // Used for Offline Manifest
   apiUrl: `https://ghost.theasdfghjkl.com`,
   subscribeWidget: {
+    visible: true,
     title: "Subscribe to Draftbox",
     helpText: "Get the latest posts delivered right to your inbox.",
     successMessage: "Thanks for subscribing to Built with Draftbox.",
@@ -62,6 +63,12 @@ module.exports = {
     instagram: "https://www.instagram.com/draftboxhq_uploads",
     linkedin: "https://linkedin.com/",
     github: "https://github.com/draftbox-co",
+    whatsapp: "",
+    pinterest: "",
+    youtube: "",
+    dribbble: "",
+    behance: "",
+    externalLink: "",
   },
   contactWidget: {
     title: "Contact Built with Draftbox",
@@ -96,5 +103,55 @@ module.exports = {
   iconUrl:
     "https://ghost.theasdfghjkl.com/content/images/2020/05/draftbox-colored-icon.png",
   coverUrl: "cover.png",
-  alternateLogoUrl: "alternateLogo.svg"
+  alternateLogoUrl: "alternateLogo.svg",
+  themeConfig: {
+    variables: [
+      {
+        varName: "--primary-color",
+        value: "#e05431",
+      },
+      {
+        varName: "--primary-color-active",
+        value: "#d13f21",
+      },
+      {
+        varName: "--cardo-font",
+        value: "Cardo",
+      },
+      {
+        varName: "--cardo-font-normal",
+        value: "400",
+      },
+      {
+        varName: "--fira-sans-font",
+        value: "Fira Sans",
+      },
+      {
+        varName: "--fira-sans-font-normal",
+        value: "400",
+      },
+      {
+        varName: "--fira-sans-font-semibold",
+        value: "600",
+      },
+      {
+        varName: "--fira-sans-font-bold",
+        value: "700",
+      },
+    ],
+    fonts: [
+      {
+        family: "Cardo",
+        variants: ["400", "400i", "700"],
+        fontDisplay: "swap",
+        strategy: "selfHosted",
+      },
+      {
+        family: "Fira Sans",
+        variants: ["400", "500", "700"],
+        fontDisplay: "swap",
+        strategy: "selfHosted",
+      },
+    ],
+  },
 };
